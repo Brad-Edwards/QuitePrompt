@@ -1,0 +1,48 @@
+Given this interface/header:
+<insert documented interface>
+
+Implement a production-ready solution:
+
+1. TYPE DESIGN
+- Define classes/structs with appropriate memory semantics
+- Specify template parameters/concepts (C++20)
+- Identify RAII requirements
+- Document const correctness guarantees
+- Define error handling strategy (exceptions vs error codes)
+- Consider ABI stability needs
+
+2. IMPLEMENTATION ITERATIONS (<X> rounds)
+For each iteration:
+a) Implement with:
+   - Smart pointer ownership model
+   - Move semantics
+   - noexcept guarantees
+   - RAII patterns
+   - Exception safety levels
+   - const correctness throughout
+b) Validate:
+   - Interface contract compliance
+   - Memory safety
+   - Exception guarantees
+   - Resource management
+c) Refine implementation
+
+3. FINAL IMPLEMENTATION
+Produce:
+- Header declarations (.h/.hpp)
+- Implementation files (.cpp)
+- Template definitions (if needed)
+- PIMPL idiom if ABI stability required
+- Clear documentation with examples
+
+4. VERIFY
+Confirm:
+- Memory safety
+- Exception safety guarantees
+- const correctness
+- Template instantiation validity
+- ABI compatibility (if needed)
+
+Implementation Analysis:
+| Type | Purpose | Templates/Concepts | Exception Safety | Memory Model |
+|------|---------|-------------------|------------------|--------------|

@@ -1,0 +1,44 @@
+Given this trait/interface:
+<insert documented trait>
+
+Implement a production-ready solution:
+
+1. TYPE DESIGN
+- Define structs/enums with appropriate lifetimes
+- Specify required trait bounds
+- Identify associated types/constants
+- Document type invariants and guarantees
+- Define error types (using thiserror if needed)
+
+2. IMPLEMENTATION ITERATIONS (<X> rounds)
+For each iteration:
+a) Implement with:
+   - Ownership/borrowing clarity
+   - Appropriate use of generics
+   - Result/Option for error handling
+   - Zero-cost abstractions
+   - Send/Sync where needed
+b) Validate:
+   - Trait contract compliance
+   - Memory safety guarantees
+   - Error propagation
+c) Refine implementation
+
+3. FINAL IMPLEMENTATION
+Produce:
+- Core type implementations
+- impl blocks for all traits
+- Custom error types
+- Builder patterns if needed
+- Clear documentation with examples
+
+4. VERIFY
+Confirm:
+- Trait bounds satisfied
+- Ownership/borrowing correctness
+- Thread safety guarantees
+- Error handling completeness
+
+Implementation Analysis:
+| Type | Purpose | Trait Bounds | Error Handling | Safety Guarantees |
+|------|---------|--------------|----------------|-------------------|

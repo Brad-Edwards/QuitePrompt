@@ -1,0 +1,44 @@
+Given this interface/protocol:
+<insert documented interface>
+
+Implement a production-ready solution:
+
+1. CLASS DESIGN
+- Define required classes/dataclasses
+- Specify type annotations
+- Identify abstract base classes
+- Document runtime invariants
+- Define custom exceptions
+
+2. IMPLEMENTATION ITERATIONS (<X> rounds)
+For each iteration:
+a) Implement with:
+   - Type hints throughout
+   - Context managers where appropriate
+   - Descriptors/properties as needed
+   - Generator patterns where applicable
+   - Async/await if required
+b) Validate:
+   - Protocol compliance
+   - Duck typing compatibility
+   - Exception handling paths
+c) Refine implementation
+
+3. FINAL IMPLEMENTATION
+Produce:
+- Class implementations
+- Helper functions/decorators
+- Custom exceptions
+- Factory methods if needed
+- Docstrings with examples
+
+4. VERIFY
+Confirm:
+- Type hint correctness
+- Exception handling coverage
+- Async compatibility
+- Resource cleanup
+
+Implementation Analysis:
+| Class/Function | Purpose | Type Hints | Error Handling | Async Safe |
+|----------------|---------|------------|----------------|------------|

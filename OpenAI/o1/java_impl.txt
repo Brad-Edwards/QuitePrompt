@@ -1,0 +1,48 @@
+Given this interface:
+<insert documented interface>
+
+Implement a production-ready solution:
+
+1. TYPE DESIGN
+- Define classes/records/sealed types
+- Specify generic bounds
+- Identify functional interfaces needed
+- Document immutability guarantees
+- Define exception hierarchy
+- Consider builder patterns
+
+2. IMPLEMENTATION ITERATIONS (<X> rounds)
+For each iteration:
+a) Implement with:
+   - Immutable where possible
+   - Stream API usage where appropriate
+   - Optional for null safety
+   - CompletableFuture for async
+   - Modern collection APIs
+   - Pattern matching (Java 21+)
+b) Validate:
+   - Interface contract compliance
+   - Thread safety guarantees
+   - Null safety
+   - Resource cleanup
+c) Refine implementation
+
+3. FINAL IMPLEMENTATION
+Produce:
+- Class implementations
+- Factory methods
+- Builder classes if needed
+- Custom exceptions
+- Clear Javadoc with examples
+
+4. VERIFY
+Confirm:
+- Generic type safety
+- Thread safety
+- Resource management
+- Exception handling paths
+- Null safety
+
+Implementation Analysis:
+| Type | Purpose | Generics/Bounds | Thread Safety | Resource Mgmt |
+|------|---------|----------------|---------------|---------------|
