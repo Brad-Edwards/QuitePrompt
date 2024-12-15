@@ -1,0 +1,52 @@
+Given these requirements:
+<insert requirements>
+
+Design a complete Python package specification:
+
+1. PACKAGE STRUCTURE
+- Module hierarchy
+- Public API surface
+- Protocol definitions
+- Type stub files (.pyi)
+- Extension points
+
+2. INTERFACE DESIGN (<X> iterations)
+For each iteration:
+a) Define:
+   - Abstract base classes
+   - Protocols
+   - Type annotations
+   - Exception classes
+   - Context managers
+b) Validate:
+   - Duck typing compatibility
+   - Type hint completeness
+   - Async patterns
+   - Resource management
+c) Refine design
+
+3. MODULE SPECIFICATIONS
+For each module:
+- Public interfaces
+- Type hints
+- Async protocols
+- Resource handling
+- Extension points
+- Plugin interfaces
+
+4. INTER-MODULE CONTRACTS
+Document:
+- Import graph
+- Async boundaries
+- Resource lifecycle
+- Error handling
+- Initialization order
+- Cleanup requirements
+
+Architecture Specification:
+| Module | Exports | Protocols | Extensions | Dependencies |
+|--------|---------|-----------|------------|--------------|
+
+Interface Stability:
+| API Element | Type Hints | Breaking Changes | Migration Path |
+|-------------|------------|------------------|----------------|

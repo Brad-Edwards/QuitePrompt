@@ -1,0 +1,53 @@
+Given these requirements:
+<insert requirements>
+
+Design a complete C/C++ system specification:
+
+1. HEADER ORGANIZATION
+- Public API headers
+- Internal headers
+- Template definitions
+- C compatibility layer
+- ABI boundaries
+- Namespace hierarchy
+
+2. INTERFACE DESIGN (<X> iterations)
+For each iteration:
+a) Define:
+   - Class hierarchies
+   - Template interfaces
+   - Concepts (C++20)
+   - Error handling strategy
+   - RAII contracts
+b) Validate:
+   - ABI stability
+   - Template constraints
+   - Exception guarantees
+   - Resource safety
+c) Refine design
+
+3. MODULE SPECIFICATIONS
+For each module:
+- Public headers
+- Template requirements
+- Memory ownership
+- Exception guarantees
+- Threading model
+- Resource lifecycle
+
+4. INTER-MODULE CONTRACTS
+Document:
+- Dependency graph
+- Memory ownership
+- Thread safety guarantees
+- Error propagation
+- Initialization requirements
+- Cleanup ordering
+
+Architecture Specification:
+| Module | Public Headers | Templates | ABI Stability | Dependencies |
+|--------|---------------|-----------|---------------|--------------|
+
+Interface Stability:
+| Header | Consumers | ABI Impact | Evolution Strategy |
+|--------|-----------|------------|-------------------|

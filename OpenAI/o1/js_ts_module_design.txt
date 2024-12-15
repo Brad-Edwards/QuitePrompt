@@ -1,0 +1,52 @@
+Given these requirements:
+<insert requirements>
+
+Design a complete JavaScript/TypeScript system specification:
+
+1. MODULE STRUCTURE
+- Package boundaries
+- Entry points
+- Type definitions
+- ESM/CommonJS support
+- Public API surface
+
+2. INTERFACE DESIGN (<X> iterations)
+For each iteration:
+a) Define:
+   - Interfaces/types
+   - Class hierarchies
+   - Generic constraints
+   - Error types
+   - Async patterns
+b) Validate:
+   - Type safety
+   - API ergonomics
+   - Promise chains
+   - Resource cleanup
+c) Refine design
+
+3. MODULE SPECIFICATIONS
+For each module:
+- Public types
+- Async contracts
+- Event models
+- Error handling
+- State management
+- Plugin systems
+
+4. INTER-MODULE CONTRACTS
+Document:
+- Import/export patterns
+- Event flows
+- Promise chains
+- Error boundaries
+- Initialization
+- Cleanup hooks
+
+Architecture Specification:
+| Module | Exports | Types | Events | Dependencies |
+|--------|---------|-------|--------|--------------|
+
+Interface Stability:
+| API Element | Type Safety | Breaking Changes | Migration Path |
+|-------------|------------|------------------|----------------|

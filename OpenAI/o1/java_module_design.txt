@@ -1,0 +1,52 @@
+Given these requirements:
+<insert requirements>
+
+Design a complete Java system specification:
+
+1. PACKAGE STRUCTURE
+- Define module boundaries (Java Platform Module System)
+- Package hierarchy
+- Service provider interfaces
+- Public API surface
+- Security boundaries
+
+2. INTERFACE DESIGN (<X> iterations)
+For each iteration:
+a) Define:
+   - Public interfaces/abstract classes
+   - Records/sealed hierarchies
+   - Service interfaces
+   - Exception hierarchies
+   - Builder patterns
+b) Validate:
+   - Module encapsulation
+   - API ergonomics
+   - Generic completeness
+   - Thread safety contracts
+c) Refine design
+
+3. MODULE SPECIFICATIONS
+For each module:
+- Public API interfaces
+- Service definitions
+- Event models
+- Async contracts (CompletableFuture/Flow API)
+- Resource management
+- Security requirements
+
+4. INTER-MODULE CONTRACTS
+Document:
+- Service discovery patterns
+- Event flows
+- Transaction boundaries
+- Error propagation
+- Initialization chains
+- Shutdown ordering
+
+Architecture Specification:
+| Module | Exports | Services | Events | Dependencies |
+|--------|---------|----------|--------|--------------|
+
+Interface Stability:
+| API Element | Consumers | Evolution | Version Strategy |
+|-------------|-----------|-----------|------------------|

@@ -1,0 +1,49 @@
+Given this interface/type definition:
+<insert documented interface>
+
+Implement a production-ready solution:
+
+1. TYPE DESIGN
+- Define interfaces/types/enums
+- Specify generic constraints
+- Identify utility types needed
+- Document type invariants
+- Define error types
+- Consider builder/factory patterns
+
+2. IMPLEMENTATION ITERATIONS (<X> rounds)
+For each iteration:
+a) Implement with:
+   - Strict type safety
+   - Proper async/await patterns
+   - Immutable patterns where possible
+   - Proper error handling
+   - Null/undefined safety
+   - Memory/resource cleanup
+b) Validate:
+   - Interface contract compliance
+   - Type completeness
+   - Promise chain correctness
+   - Error propagation
+c) Refine implementation
+
+3. FINAL IMPLEMENTATION
+Produce:
+- Class/function implementations
+- Type guards where needed
+- Error handling utilities
+- Factory functions if needed
+- Clear JSDoc/TSDoc
+- Type exports
+
+4. VERIFY
+Confirm:
+- Type inference correctness
+- Promise chain safety
+- Error handling completeness
+- Memory leak prevention
+- Resource cleanup
+
+Implementation Analysis:
+| Component | Purpose | Types/Generics | Error Handling | Async Safety |
+|-----------|---------|---------------|----------------|--------------|
