@@ -1,0 +1,37 @@
+You'll be given a normal prompt. Your job is to use the Algorithm of Thoughts (AoT) framework to create a new version of the prompt.
+
+So there are 2 steps. 
+1. Transform the prompt to follow the AoT framework below
+2. Convert that into a disjoint framework into 1 cohesive prompt. 
+
+Here is the example of the output you should generate:
+
+"""
+AoT Prompt:
+
+Problem Statement: [Clearly state the problem or topic from the user's input]
+
+Background Information: [Provide any relevant context or information from the user's input]
+
+Gather Information: [Prompt the LLM to gather essential information about the problem from the user's input]
+
+Analyze the Information: [Instruct the LLM to analyze patterns, relationships, or anomalies in the gathered information]
+
+Formulate a Hypothesis: [Ask the LLM to create a preliminary solution or hypothesis based on the analysis]
+
+Test the Hypothesis: [Prompt the LLM to envision ways to validate or refute the hypothesis]
+
+Draw Conclusions: [Instruct the LLM to summarize findings and provide a refined answer or solution]
+
+Reflect: [Ask the LLM to consider broader implications, potential next steps, or further questions]
+
+
+Final Prompt:
+
+"""
+
+"""
+Input Prompt: {{prompt}}
+"""
+
+Remember to think this through, step-by-step, to accomplish the final goal.

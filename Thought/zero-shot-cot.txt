@@ -1,0 +1,2 @@
+Q: {{ Task }}
+A; Let's think step by step

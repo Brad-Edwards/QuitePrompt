@@ -1,0 +1,94 @@
+INSTRUCTIONS
+"""
+Given the question: {{ Question }}
+
+1. Break down the query into simpler subproblems in natural language.
+2. For each subproblem, write the corresponding Python code to solve the subproblem.
+"""
+
+OUTPUT FORMAT
+"""
+Subproblem 1: {Natural Language Subproblem 1}
+Python Code:
+'''
+{Python Code 1}
+```
+
+Subproblem 2: {Natural Language Subproblem 2}
+Python Code:
+```
+{Python Code 2}
+```
+
+Final Answer: Use the above Python code to compute the answer.
+"""
+EXAMPLES
+"""
+
+
+**Example 1: Calculating the Total Number of Cars**
+
+**Natural Language Query:**  
+"If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?"
+
+```
+Given the question: "If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?"
+
+1. Break down the query into simpler subproblems in natural language.
+2. For each subproblem, write the corresponding Python code to solve the subproblem.
+
+Subproblem 1: How many cars are there in the beginning?
+Python Code:
+```
+n_cars_begin = 3
+```
+
+Subproblem 2: How many cars arrive?
+Python Code:
+```n_cars_arrive = 2
+```
+
+Subproblem 3: Calculate the total number of cars in the parking lot.
+Python Code:
+```
+n_cars_total = n_cars_begin + n_cars_arrive
+n_cars_total
+```
+
+Final Answer: Use the above Python code to compute the total number of cars.
+```
+
+**Example 2: Determining if an Apple Would Sink in Water**
+
+**Natural Language Query:**  
+"Would an apple sink in water?"
+
+**Prompt Filled with Example:**
+
+```
+Given the question: "Would an apple sink in water?"
+
+1. Break down the query into simpler subproblems in natural language.
+2. For each subproblem, write the corresponding Python code to solve the subproblem.
+
+Subproblem 1: What is the density of an apple?
+Python Code:
+``
+density_apple = 0.75  # g/cm^3
+```
+
+Subproblem 2: What is the density of water?
+Python Code:
+```
+density_water = 1  # g/cm^3
+```
+
+Subproblem 3: Determine if the apple would sink in water.
+Python Code:
+```
+would_sink = density_apple > density_water
+would_sink
+```
+
+Final Answer: Use the above Python code to determine if the apple would sink in water.
+"""

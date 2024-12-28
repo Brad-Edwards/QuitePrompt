@@ -1,0 +1,1 @@
+Break this task into smaller components. For each component, provide an answer. Then, compare your answers and analyze their consistency. If there are contradictions, re-evaluate and repeat at least 3 times, analyze the final components and propose a refined solution. Once complete, summarize your reasoning and suggest next steps for further analysis, include a table with results

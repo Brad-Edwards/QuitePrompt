@@ -1,0 +1,2 @@
+{{Task}}
+"Walk me through this context in manageable parts step by step, summarizing and analyzing as we go."
